@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+{% for stud in studs %}
+
+    {{stud.student_name}}
+    {{stud.student_age}}
+
+    {% endfor %}
+
+
+{% endblock content %}
